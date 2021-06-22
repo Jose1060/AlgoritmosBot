@@ -8,8 +8,11 @@ requests = "*"
 "discord.py" = "*"
 pynacl = "*"
 youtube-dl = "*"
+discordutils = "*"
+pymongo = {extras = ["srv"], version = "*"}
 
 [dev-packages]
+colorama = "*"
 
 [requires]
 python_version = "3.8"
