@@ -10,6 +10,7 @@ pynacl = "*"
 youtube-dl = "*"
 discordutils = "*"
 pymongo = {extras = ["srv"], version = "*"}
+discord-components = "*"
 
 [dev-packages]
 colorama = "*"
