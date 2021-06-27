@@ -13,7 +13,7 @@ import DiscordUtils
 
 TOKEN = 'ODU1NDU4MTMwODU4NDc1NTYw.YMyxeA.HS19XvUiGunajkumM9g6JkbkAP4'
 
-bot = commands.Bot(command_prefix = '!')
+bot = commands.Bot(command_prefix = '--')
 
 music = DiscordUtils.Music()
 

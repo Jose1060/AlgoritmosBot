@@ -24,6 +24,7 @@ class LinkedList :
             print(node.data, end =" => ")
             node = node.next
         print("NULL")
+        
     # Insert an item at the begin
     def insertAtBegin(self,data):
 
@@ -76,6 +77,15 @@ class LinkedList :
     def clear( self) :
         self.head = None
 
+    def size(self):
+        count = 0
+        current = self.head
+        while not current == None:
+            count += 1
+            current = current.getNext()
+        print(count)
+        return count
+    """
     def print( self):
         count = 0
         current = self.head
@@ -83,7 +93,8 @@ class LinkedList :
             count+= 1
             print (current.data)
             current = current.getNext()
-            
+    
+    """        
 
 
 """
